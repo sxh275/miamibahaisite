@@ -7,6 +7,19 @@ h4 a {
 	
   }
 
-  .h1 {
-	
+  
+  #weekHeader {
+	height: 2%;  
   }
+  
+  .headerDay {
+	width: calc(100vw / 7);
+  }
+  
+  #prev:hover, #next:hover, .day{
+	cursor: pointer;
+  }
+  
+  #header{height: 10%;
+}
+
