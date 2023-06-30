@@ -7,7 +7,9 @@ h4 a {
 	
   }
 
-  
+create class for top section and specify spacing
+
+
   #weekHeader {
 	height: 2%;  
   }
@@ -23,3 +25,6 @@ h4 a {
   #header{height: 10%;
 }
 
+td {
+	
+}
