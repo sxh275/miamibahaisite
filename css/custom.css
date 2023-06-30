@@ -1,3 +1,7 @@
+.brand-logo-dark {
+	margin-right:15px;
+}
+
 h4 a {
 	text-decoration: underline;
   }
@@ -11,6 +15,7 @@ h4 a {
 	padding-top: 50px;
 	padding-bottom: 50px;
 } 
+
 
 .data-parallax-img {
 	height: auto;
