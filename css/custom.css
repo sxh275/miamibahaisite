@@ -7,7 +7,17 @@ h4 a {
 	
   }
 
-create class for top section and specify spacing
+.section1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+} 
+
+.data-parallax-img {
+	height: auto;
+}
+
+<!-- create class for top section and specify spacing -->
+
 
 
   #weekHeader {
