@@ -1,3 +1,5 @@
+/* index */
+
 .brand-logo-dark {
 	margin-right:15px;
 }
@@ -6,7 +8,7 @@ h4 a {
 	text-decoration: underline;
   }
 
-  .rd-navbar-panel {
+.rd-navbar-panel {
 	display: inline-flex;
 	
   }
@@ -16,14 +18,12 @@ h4 a {
 	padding-bottom: 50px;
 } 
 
-
 .data-parallax-img {
 	height: auto;
 }
 
-<!-- create class for top section and specify spacing -->
 
-
+ /* calendar */
 
   #weekHeader {
 	height: 2%;  
@@ -44,3 +44,12 @@ h4 a {
 	height: 200px;
 	width: 200px;
 }
+
+ /* espanol */
+
+
+
+.flourish ul{ 
+	list-style-image: url(images/flourish.png); 
+} 
+
