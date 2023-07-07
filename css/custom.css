@@ -14,14 +14,24 @@ h4 a {
   }
 
 .section1 {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 } 
 
 .data-parallax-img {
 	height: auto;
 }
 
+/* header */
+
+.header-title {
+	text-shadow: 3px 3px 8px black;
+}
+
+.calendar-quote {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
  /* calendar */
 
@@ -52,4 +62,5 @@ h4 a {
 .flourish ul{ 
 	list-style-image: url(images/flourish.png); 
 } 
+
 
