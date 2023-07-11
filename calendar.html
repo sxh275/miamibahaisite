@@ -1,296 +1,343 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
-  <head>
-    <title>Calendar</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&amp;family=Libre+Caslon+Text&amp;display=swap">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/custom.css">
 
-  </head>
-  <body>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"></div>
-        </div>
+<head>
+  <title>Calendar</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&amp;family=Libre+Caslon+Text&amp;display=swap" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="preloader-body">
+      <div class="cssload-container">
+        <div class="cssload-speeding-wheel"></div>
       </div>
     </div>
-    <div class="page">
-      <header class="section page-header">
-        <!--RD Navbar-->
-        <div class="rd-navbar-wrap">
-          <nav class="rd-navbar bg-light" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xl-auto-height="false" data-xxl-auto-height="false" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
-            <div class="rd-navbar-main-outer">
-              <div class="rd-navbar-main">
-                <!--RD Navbar Panel-->
-                <div class="rd-navbar-panel">
-                  <!--RD Navbar Toggle-->
-                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                  <img class="brand-logo-dark" src="images/bahaistar.png" alt="" loading="lazy" width="50" height="50">
-                  <!--RD Navbar Brand-->
-                  <div class="rd-navbar-brand">
-                    <!--Brand-->
-                    <a class="brand" href="index.html">The Bahá’í Faith</a>
-                    <a class="brand" href="index.html">Miami-Dade County, Florida</a>
-                  </div>
+  </div>
+  <div class="page">
+    <header class="section page-header">
+      <!--RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar bg-light" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
+          data-xxl-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed"
+          data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static"
+          data-xxl-device-layout="rd-navbar-static" data-xl-auto-height="false" data-xxl-auto-height="false"
+          data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px"
+          data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse">
+            <span></span>
+          </div>
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!--RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!--RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
+                  <span></span>
+                </button>
+                <img class="brand-logo-dark" src="images/bahaistar.png" alt="" loading="lazy" width="50" height="50" />
+                <!--RD Navbar Brand-->
+                <div class="rd-navbar-brand">
+                  <!--Brand-->
+                  <a class="brand" href="index.html">The Bahá’í Faith</a>
+                  <a class="brand" href="index.html">Miami-Dade County, Florida</a>
                 </div>
-                <div class="rd-navbar-main-element">
-                  <div class="rd-navbar-nav-wrap">
-                    <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="intro.html">Intro</a>
-                      </li>
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="calendar.html">Calendar</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="espanol.html">Español</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="links.html">Links</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="pictures.html">Pictures</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="faq.html">FAQ</a>
-                      </li>
-                    </ul>
-                  </div>
+              </div>
+              <div class="rd-navbar-main-element">
+                <div class="rd-navbar-nav-wrap">
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="intro.html">Intro</a>
+                    </li>
+                    <li class="rd-nav-item active">
+                      <a class="rd-nav-link" href="calendar.html">Calendar</a>
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="espanol.html">Español</a>
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="links.html">Links</a>
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="pictures.html">Pictures</a>
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="faq.html">FAQ</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="rd-navbar-collapse"><a class="btn btn-sm btn-dark" href="contact.html">Contact Us ➝</a></div>
+              </div>
+              <div class="rd-navbar-collapse">
+                <a class="btn btn-sm btn-dark" href="contact.html">Contact Us ➝</a>
               </div>
             </div>
-          </nav>
-        </div>
-      </header>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-      <section class="section section-md bg-default text-center">
-
-
-                
-        <section class="parallax-container section section-lg context-dark text-center" data-parallax-img="images/bahji_path_tree.jpg">
+    <section class="section section-md bg-default text-center">
+      <section class="parallax-container section section-lg context-dark text-center"
+        data-parallax-img="images/bahji_path_tree.jpg">
         <div class="parallax-content">
           <div class="container">
             <h2 class="h1 header-title">Miami-Dade Bahá'í Events Calendar</h2>
-            
           </div>
         </div>
       </section>
       <div class="container calendar-quote">
-          <div class="row justify-content-center">
-            <div class="col-xl-8">
-
-                <h4>The public is cordially invited to all meetings (except noted by *). No money is ever solicited
-                    (contributions to the Bahá'í Faith are not accepted from those who are not enrolled Bahá'ís).
-                    If there is an admission charge, fee, or tuition, it is indicated (or described in the link).
-                    Please call the listed phone number for location and additional information.
-                    An interfaith calendar can be found here.
-                    A list of frequently asked questions is here.
-                    A 50-year listing of Bahá'í Holy and Feast Days is here.
-                    All start times are EDT
-                </h4>
-            </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <h4>
+              The public is cordially invited to all meetings (except noted by
+              *). No money is ever solicited (contributions to the Bahá'í
+              Faith are not accepted from those who are not enrolled Bahá'ís).
+              If there is an admission charge, fee, or tuition, it is
+              indicated (or described in the link). Please call the listed
+              phone number for location and additional information. An
+              interfaith calendar can be found here. A list of frequently
+              asked questions is here. A 50-year listing of Bahá'í Holy and
+              Feast Days is here. All start times are EDT
+            </h4>
           </div>
         </div>
-
+      </div>
     </section>
 
+    <section class="section2 section-md bg-light">
+      <div class="container">
+        <div class="row row-50 justify-content-between flex-md-row-reverse">
+          <table class="table table-bordered vh-100">
+            <thead>
+              <tr id="monthHeader">
+                <th colspan="7" id="header" class="text-center">
+                  <h1 class="d-inline-block align-middle" id="month">July</h1>
+                </th>
+              </tr>
 
+              <tr class="text-center" id="weekHeader">
+                <th class="headerDay">Sun</th>
+                <th class="headerDay">Mon</th>
+                <th class="headerDay">Tues</th>
+                <th class="headerDay">Wed</th>
+                <th class="headerDay">Thur</th>
+                <th class="headerDay">Fri</th>
+                <th class="headerDay">Sat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="day">
+                  1 <br />
+                  Bahai Feast Monday night: Hemmat residence.<br />
+                  Please RSVP to shemmat@gmail.com
+                </td>
+                <td class="day">2</td>
+                <td class="day">3</td>
+                <td class="day">4</td>
+                <td class="day">5</td>
+                <td class="day">6</td>
+                <td class="day">
+                  7 <br />
+                  LSA Meeting 6:00pm via Zoom
+                </td>
+              </tr>
 
-      <section class="section2 section-md bg-light">
-        <div class="container">
-            <div class="row row-50 justify-content-between flex-md-row-reverse">
-                <table  class="table table-bordered vh-100">
-                    <thead>
-                      <tr id="monthHeader">
-                  
-                        <th colspan="7" id="header" class="text-center">         
-                          <h1 class="d-inline-block align-middle" id="month">July</h1>
-                        </th>
-                  
-                      </tr>
-                      
-                          <tr class="text-center" id="weekHeader">
-                            <th class="headerDay">Sun</th>
-                            <th class="headerDay">Mon</th>
-                            <th class="headerDay">Tues</th>
-                            <th class="headerDay">Wed</th>
-                            <th class="headerDay">Thur</th>
-                            <th class="headerDay">Fri</th>
-                            <th class="headerDay">Sat</th>
-                          </tr>    
-                      
-                    </thead>
-                    <tbody>
-                          <tr>
-                            <td class="day">1 <br> Bahai Feast Monday night: Hemmat residence.<br> Please RSVP to shemmat@gmail.com</td>
-                            <td class="day">2</td>
-                            <td class="day">3</td>
-                            <td class="day">4</td>
-                            <td class="day">5</td>
-                            <td class="day">6</td>
-                            <td class="day">7 <br> LSA Meeting 6:00pm via Zoom</td>
-                          </tr>
-                  
-                          <tr>
-                            <td class="day">8</td>
-                            <td class="day">9</td>
-                            <td class="day">10 <br> Maryrdom of the Bab</td>
-                            <td class="day">11</td>
-                            <td class="day">12</td>
-                            <td class="day">13</td>
-                            <td class="day">14</td>
-                          </tr>
-                  
-                          <tr>
-                            <td class="day">15</td>
-                            <td class="day">16</td>
-                            <td class="day">17</td>
-                            <td class="day">18</td>
-                            <td class="day">19</td>
-                            <td class="day">20</td>
-                            <td class="day">21</td>
-                          </tr>
-                  
-                          <tr>
-                            <td class="day">22</td>
-                            <td class="day">23</td>
-                            <td class="day">24</td>
-                            <td class="day">25</td>
-                            <td class="day">26</td>
-                            <td class="day">27</td>
-                            <td class="day">28</td>
-                          </tr>
-                          
-                          <tr>
-                            <td class="day">29</td>
-                            <td class="day">30</td>
-                            <td class="day">31</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                          </tr>
-                    </tbody>
-                  </table>   
-               
-                  <table  class="table table-bordered vh-100">
-                    <thead>
-                      <tr id="monthHeader">
-                  
-                        <th colspan="7" id="header" class="text-center">         
-                          <h1 class="d-inline-block align-middle" id="month">August</h1>
-                        </th>
-                  
-                      </tr>
-                      
-                          <tr class="text-center" id="weekHeader">
-                            <th class="headerDay">Sun</th>
-                            <th class="headerDay">Mon</th>
-                            <th class="headerDay">Tues</th>
-                            <th class="headerDay">Wed</th>
-                            <th class="headerDay">Thur</th>
-                            <th class="headerDay">Fri</th>
-                            <th class="headerDay">Sat</th>
-                          </tr>    
-                      
-                    </thead>
-                    <tbody>
-                          <tr>
-                            <td class="day">1</td>
-                            <td class="day">2</td>
-                            <td class="day">3</td>
-                            <td class="day">4</td>
-                            <td class="day">5</td>
-                            <td class="day">6</td>
-                            <td class="day">7</td>
-                          </tr>
-                  
-                          <tr>
-                            <td class="day">8</td>
-                            <td class="day">9</td>
-                            <td class="day">10</td>
-                            <td class="day">11</td>
-                            <td class="day">12</td>
-                            <td class="day">13</td>
-                            <td class="day">14</td>
-                          </tr>
-                  
-                          <tr>
-                            <td class="day">15</td>
-                            <td class="day">16</td>
-                            <td class="day">17</td>
-                            <td class="day">18</td>
-                            <td class="day">19</td>
-                            <td class="day">20</td>
-                            <td class="day">21</td>
-                          </tr>
-                  
-                          <tr>
-                            <td class="day">22</td>
-                            <td class="day">23</td>
-                            <td class="day">24</td>
-                            <td class="day">25</td>
-                            <td class="day">26</td>
-                            <td class="day">27</td>
-                            <td class="day">28</td>
-                          </tr>
-                          
-                          <tr>
-                            <td class="day">29</td>
-                            <td class="day">30</td>
-                            <td class="day">31</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                          </tr>
-                    </tbody>
-                  </table>
-            </div>
+              <tr>
+                <td class="day">8</td>
+                <td class="day">9</td>
+                <td class="day">
+                  10 <br />
+                  Maryrdom of the Bab
+                </td>
+                <td class="day">11</td>
+                <td class="day">12</td>
+                <td class="day">13</td>
+                <td class="day">14</td>
+              </tr>
+
+              <tr>
+                <td class="day">15</td>
+                <td class="day">16</td>
+                <td class="day">17</td>
+                <td class="day">18</td>
+                <td class="day">19</td>
+                <td class="day">20</td>
+                <td class="day">21</td>
+              </tr>
+
+              <tr>
+                <td class="day">22</td>
+                <td class="day">23</td>
+                <td class="day">24</td>
+                <td class="day">25</td>
+                <td class="day">26</td>
+                <td class="day">27</td>
+                <td class="day">28</td>
+              </tr>
+
+              <tr>
+                <td class="day">29</td>
+                <td class="day">30</td>
+                <td class="day">31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="table table-bordered vh-100">
+            <thead>
+              <tr id="monthHeader">
+                <th colspan="7" id="header" class="text-center">
+                  <h1 class="d-inline-block align-middle" id="month">
+                    August
+                  </h1>
+                </th>
+              </tr>
+
+              <tr class="text-center" id="weekHeader">
+                <th class="headerDay">Sun</th>
+                <th class="headerDay">Mon</th>
+                <th class="headerDay">Tues</th>
+                <th class="headerDay">Wed</th>
+                <th class="headerDay">Thur</th>
+                <th class="headerDay">Fri</th>
+                <th class="headerDay">Sat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="day">1</td>
+                <td class="day">2</td>
+                <td class="day">3</td>
+                <td class="day">4</td>
+                <td class="day">5</td>
+                <td class="day">6</td>
+                <td class="day">7</td>
+              </tr>
+
+              <tr>
+                <td class="day">8</td>
+                <td class="day">9</td>
+                <td class="day">10</td>
+                <td class="day">11</td>
+                <td class="day">12</td>
+                <td class="day">13</td>
+                <td class="day">14</td>
+              </tr>
+
+              <tr>
+                <td class="day">15</td>
+                <td class="day">16</td>
+                <td class="day">17</td>
+                <td class="day">18</td>
+                <td class="day">19</td>
+                <td class="day">20</td>
+                <td class="day">21</td>
+              </tr>
+
+              <tr>
+                <td class="day">22</td>
+                <td class="day">23</td>
+                <td class="day">24</td>
+                <td class="day">25</td>
+                <td class="day">26</td>
+                <td class="day">27</td>
+                <td class="day">28</td>
+              </tr>
+
+              <tr>
+                <td class="day">29</td>
+                <td class="day">30</td>
+                <td class="day">31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </section>
+      </div>
+    </section>
 
-    
-      <footer class="section section-lg bg-default footer">
-        <div class="container">
-          <div class="row row-50">
-            <div class="col-6 col-sm-4 col-xl-2">
-              <h5 class="footer-title">who we are</h5>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-item"><a class="footer-nav-link" href="index.html">Home</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="about.html">About us</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="calendar.html">Events</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="#">Location</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-sm-4 col-xl-2">
-              <h5 class="footer-title">help</h5>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-item"><a class="footer-nav-link" href="contact.html">Contact us</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="faq.html">FAQ</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="#">Legal & privacy</a></li>
-              </ul>
-            </div>
-            <div class="col-xxl-5 col-xl-6 offset-xxl-1">
-              <h5 class="footer-title">Contact us</h5>
-              <p></p>
-              <p class="mt-0">Questions? <a class="text-decoration-underline ms-5" href="contact.html">Contact us</a></p>
-              <p class="mt-25"><a href="tel:#">1-800-228-6483</a></p>
-              <div class="group"><a class="icon icon-lg fa-youtube-play" href="https://www.youtube.com/c/TheBah%C3%A1%E2%80%99%C3%ADFaith"></a><a class="icon icon-lg fa-twitter" href="https://twitter.com/bahai?lang=en"></a><a class="icon icon-lg fa-facebook-f" href="https://www.facebook.com/The.Bahai.Faith/"></a></div>
+    <footer class="section section-lg bg-default footer">
+      <div class="container">
+        <div class="row row-50">
+          <div class="col-6 col-sm-4 col-xl-2">
+            <h5 class="footer-title">who we are</h5>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="index.html">Home</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="about.html">About us</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="calendar.html">Events</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="#">Location</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-4 col-xl-2">
+            <h5 class="footer-title">help</h5>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="contact.html">Contact us</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="#">Legal & privacy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xxl-5 col-xl-6 offset-xxl-1">
+            <h5 class="footer-title">Contact us</h5>
+            <p></p>
+            <p class="mt-0">
+              Questions?
+              <a class="text-decoration-underline ms-5" href="contact.html">Contact us</a>
+            </p>
+            <p class="mt-25"><a href="tel:#">1-800-228-6483</a></p>
+            <div class="group">
+              <a class="icon icon-lg fa-youtube-play"
+                href="https://www.youtube.com/c/TheBah%C3%A1%E2%80%99%C3%ADFaith"></a><a class="icon icon-lg fa-twitter"
+                href="https://twitter.com/bahai?lang=en"></a><a class="icon icon-lg fa-facebook-f"
+                href="https://www.facebook.com/The.Bahai.Faith/"></a>
             </div>
           </div>
-          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>The Local Spiritual Assembly of the Bahá’ís of Miami-Dade (Central). All rights reserved.</span></p>
         </div>
-      </footer>
-      
-    </div>
-    <div class="snackbars" id="form-output-global"></div>
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+        <p class="rights">
+          <span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>The Local Spiritual
+            Assembly of the Bahá’ís of Miami-Dade
+            (Central). All rights reserved.</span>
+        </p>
+      </div>
+    </footer>
+  </div>
+  <div class="snackbars" id="form-output-global"></div>
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
