@@ -1,0 +1,66 @@
+/* index */
+
+.brand-logo-dark {
+  margin-right:15px;
+}
+
+h4 a {
+  text-decoration: underline;
+  }
+
+.rd-navbar-panel {
+  display: inline-flex;
+  
+  }
+
+.section1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+} 
+
+.data-parallax-img {
+  height: auto;
+}
+
+/* header */
+
+.header-title {
+  text-shadow: 3px 3px 8px black;
+}
+
+.calendar-quote {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+ /* calendar */
+
+  #weekHeader {
+  height: 2%;  
+  }
+  
+  .headerDay {
+  width: calc(100vw / 7);
+  }
+  
+  #prev:hover, #next:hover, .day{
+  cursor: pointer;
+  }
+  
+  #header{height: 10%;
+}
+
+.day { 
+  height: 200px;
+  width: 200px;
+}
+
+ /* espanol */
+
+
+
+.flourish ul{ 
+  list-style-image: url(images/flourish.png); 
+} 
+
+
